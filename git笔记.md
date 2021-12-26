@@ -69,3 +69,4 @@ new file:   "git\347\254\224\350\256\260.md"
 ```
 git config --global core.quotepath false
 ```
+core.quotepath设为false的话，不会0x80以上的字符进行quote。中文显示正常。
