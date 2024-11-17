@@ -12,9 +12,9 @@ npm install vue-cli -g
 npm : 无法加载文件 *\npm.ps1，因为在此系统上禁止运行脚本。有关详细信息，请参阅 https:/go.microsoft.com/fwl
 ink/?LinkID=135170 中的 about_Execution_Policies。
 ```
-//报错解释
+### 报错解释
 这个错误表明你的系统策略设置不允许执行未签名的PowerShell脚本。从Windows PowerShell 3.0开始，默认的执行策略被设置为“Restricted”，这意味着默认情况下不允许任何脚本运行。
-//解决方法：
+### 解决方法：
 1. 以管理员身份打开PowerShell。
 2. 执行以下命令来查看当前的执行策略：
 ``` Powershell
